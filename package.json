@@ -1,0 +1,34 @@
+{
+  "name": "articles",
+  "description": "Some articles/posts I wrote.",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "test": "node test",
+    "lint": "eslint .",
+    "type-check": "tsc"
+  },
+  "files": [
+    "articles/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizffgv/articles.git"
+  },
+  "author": "Luiz Fernando F. G. Valle",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/luizffgv/articles/issues"
+  },
+  "homepage": "https://github.com/luizffgv/articles#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-jsdoc": "^48.0.6",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "jsonschema": "^1.4.1",
+    "typescript": "^5.3.3"
+  }
+}
